@@ -1,0 +1,28 @@
+p{
+    margin-bottom: 0;
+}
+.container_contact{
+    padding-bottom: 200px;
+    z-index: 2;
+    position: relative;
+}
+.container_contact h2{
+    line-height: 1.2em;
+    max-width: 20%;
+}
+.container_contact p{
+    max-width: 40%;
+}
+
+.logo_skills{
+    margin-top: 5em;
+    margin-right: 3em;
+    width: 5em;
+}
+
+.logo_skills-animated:hover{
+    transform: scale(1.1);
+}
+.container_logo_contact img{
+    cursor: pointer;
+}

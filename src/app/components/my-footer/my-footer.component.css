@@ -1,0 +1,24 @@
+.container_footer{
+    background-color: rgba(0,0,0,.1);
+    position: relative;
+    width: 100%;
+}
+.animation_logo{
+    transition: transform 0.5s;
+    position: absolute;
+    bottom: 0;
+    padding: 50px 20px;
+    z-index: 10;
+}
+.animation_logo:hover{
+    transform: rotateZ(-90deg);
+}
+.bg-footer{
+    position: absolute;
+    width: inherit;
+}
+.img_background_footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

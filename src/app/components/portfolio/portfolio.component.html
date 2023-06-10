@@ -1,0 +1,24 @@
+<div class="loading" *ngIf="loading">
+    <img src="./assets/logoPrincipal.svg" alt="">
+</div>
+
+<div id="favoritos-list">
+    <!-- HEADER -->
+    <div class="main_component">
+        <headercomponent></headercomponent>
+    </div>
+    <!-- PROJECT SECTION -->
+    <div class="w-75 m-auto">
+        <app-my-projects></app-my-projects>
+    </div>
+    <div class="w-75 m-auto">
+        <app-my-skills ></app-my-skills>
+    </div>
+    <div class="w-75 m-auto">
+        <app-my-contact></app-my-contact>
+    </div>
+    <div>
+        <app-my-footer></app-my-footer>
+    </div>
+</div>
+

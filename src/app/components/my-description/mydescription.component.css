@@ -1,0 +1,14 @@
+.container-mydescription{
+    position: absolute;
+    display: flex;
+    top: calc(100vh / 2 - 88.5px);
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.container-mydescription h1{
+    max-width: 45%;
+}
+.container-mydescription p{
+    max-width: 60%;
+}

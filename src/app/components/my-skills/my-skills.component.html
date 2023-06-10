@@ -1,0 +1,58 @@
+<div class="img_background_projects">
+    <img src="./assets/bg03.svg" alt="">
+</div>
+<section class="container_skills" data-aos="fade-up" data-aos-duration="3000" id="myskills">
+    
+    <div class="title_section">
+        <h2 (mouseover)="showImage=true" (mouseout)="showImage=false">My skills</h2>
+    </div>
+    
+    <div class="container_card_skills" *ngIf="showImage">
+        
+        <div class="container_card_skill">
+            <img src="./assets/svg/logo-skills/html.svg" alt="" class="logo_skills">
+            <p>HTML 5</p>
+        </div>
+        <div class="container_card_skill">
+            <img src="./assets/svg/logo-skills/css.svg" alt="" class="logo_skills">
+            <p>CSS 3</p>
+        </div>
+        <div class="container_card_skill">
+            <img src="./assets/svg/logo-skills/js.svg" alt="" class="logo_skills">
+            <p>Javascript</p>
+        </div>
+        <div class="container_card_skill">
+            <img src="./assets/svg/logo-skills/typescript.svg" alt="" class="logo_skills">
+            <p>Typescript</p>
+        </div>
+        <div class="container_card_skill">
+            <img src="./assets/svg/logo-skills/node.svg" alt="" class="logo_skills">
+            <p>Node</p>
+        </div>
+        <div class="container_card_skill">
+            <img src="./assets/svg/logo-skills/java.svg" alt="" class="logo_skills">
+            <p>Java</p>
+        </div>
+        <div class="container_card_skill">
+            <img src="./assets/svg/logo-skills/springboot.svg" alt="" class="logo_skills">
+            <p>SpringBoot</p>
+        </div>
+        <div class="container_card_skill">
+            <img src="./assets/svg/logo-skills/angular.svg" alt="" class="logo_skills">
+            <p>Angular</p>
+        </div>
+        <div class="container_card_skill">
+            <img src="./assets/svg/logo-skills/react.svg" alt="" class="logo_skills">
+            <p>React</p>
+        </div>
+        <div class="container_card_skill">
+            <img src="./assets/svg/logo-skills/bootstrap.svg" alt="" class="logo_skills">
+            <p>Bootstrap 5</p>
+        </div>
+
+    </div>
+
+    <div class="container_alert_projects" *ngIf="!showImage">
+        <h1>Hover your mouse over the title </h1>
+    </div>
+</section>

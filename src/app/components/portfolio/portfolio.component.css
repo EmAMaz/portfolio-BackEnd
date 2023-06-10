@@ -1,0 +1,15 @@
+.main_component{
+    height: 100vh;
+}
+.loading{
+    position: relative;
+}
+.loading img{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
